@@ -58,9 +58,12 @@ section{
     line-height: 2em;
     font-family: var(--fonte3);
     font-size: 3.5vw;
-    
+
 }
 
+section > p{
+    padding-bottom: 2em;
+}
 section.normal {
     background-color: white;
     color: black;
@@ -76,6 +79,14 @@ section.imagem > p{
     padding: 5px;
     width: 400px;
     background-color: rgba(0, 0, 0, 0.163) ;
+}
+
+section#img001{
+    background-image: url('../desafio12/imagens/background001.jpg');
+}
+
+section#img002{
+    background-image: url('../desafio12/imagens/background002.jpg');
 }
 
 footer {
