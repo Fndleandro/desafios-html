@@ -85,14 +85,14 @@ section.imagem > p{
 }
 
 section#img001{
-    background-image: url('../desafio12/imagens/background001.jpg');
+    background-image: url('../imagens/background001.jpg');
     background-position: right center;
     background-size: cover ;
 
 }
 
 section#img002{
-    background-image: url('../desafio12/imagens/background002.jpg');
+    background-image: url('../imagens/background002.jpg');
     background-position:right center ;
     background-size: cover;
 }
