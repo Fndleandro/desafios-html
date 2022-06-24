@@ -8,9 +8,11 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
+            
         }
         table{
             width: 500px;
+            border-collapse: collapse;
         }
         td,th{
             border: 1px solid black;
@@ -23,6 +25,11 @@
         }
         td.num{
             text-align: right;
+        }
+
+        tbody > tr:nth-child(2n) {
+            
+            background-color: lightgray;
         }
     </style>
 </head>
@@ -59,13 +66,65 @@
                 <td>Rio De Janeiro</td>
                 <td class="num">17 264 793 </td>
             </tr>
-        </tbody>
 
-        <tfoot>
-            <tr>
-                <th>Total De Habitantes </th>
-                <td class="num "><strong> 952 633</strong></td>
+            <td>Bahia</td>
+            <td class="num">45 919 049</td>
+
             </tr>
+            <tr>
+                <td>Parana</td>
+                <td class="num">21 768 791</td>
+            </tr>
+            <tr>
+                <td>Rio Grande Do Sul</td>
+                <td class="num">17 264 793 </td>
+            </tr>
+
+            <td>Pernanbuco</td>
+            <td class="num">45 919 049</td>
+
+            </tr>
+            <tr>
+                <td>Ceara</td>
+                <td class="num">21 768 791</td>
+            </tr>
+            <tr>
+                <td>Para</td>
+                <td class="num">17 264 793 </td>
+            </tr>
+
+            <td>Santa Catarina </td>
+            <td class="num">45 919 049</td>
+
+            </tr>
+            <tr>
+                <td>Maranhão </td>
+                <td class="num">21 768 791</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td class="num">17 264 793 </td>
+            </tr>
+
+            <td>Amazonas</td>
+            <td class="num">45 919 049</td>
+
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="num">21 768 791</td>
+            </tr>
+            <tr>
+                <td>Paraiba</td>
+                <td class="num">17 264 793 </td>
+            </tr>
+            </tbody>
+
+         <tfoot>
+                <tr>
+                    <th>Total De Habitantes </th>
+                    <td class="num "><strong> 188 952 633</strong></td>
+                </tr>
 
         </tfoot>
     </table>
